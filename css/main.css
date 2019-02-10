@@ -21,3 +21,29 @@ html {
 body {
   margin: 0;
 }
+
+nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.name {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+  text-align: left;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
